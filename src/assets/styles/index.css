@@ -1,0 +1,29 @@
+body {
+  font-size: 16px;
+  padding: 0;
+  margin: 0;
+  position: relative;
+  min-height: 100vh;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
+
+header {
+  border-bottom: 1px solid #ddd;
+  box-shadow: 2px 0 4px 1px #ddd;
+}
+
+#error-container {
+  margin: 1rem;
+}
+
+#error {
+  padding: 0 1rem;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100vw;
+  padding: 1.5rem;
+}

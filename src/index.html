@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+    <meta name="description" content="Webpack Demo" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Webpack Demo</title>
+    <link rel='stylesheet' href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css" crossorigin="anonymous" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <nav class="navbar" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+          <a href="/" class="navbar-item">
+            <img src="./assets/images/Goku_Ultra_Instinct.svg" decoding="async" loading="lazy" alt="Goku" />
+          </a>
+          <span role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="main-navbar">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </span>
+        </div>
+        <div id="main-navbar" class="navbar-menu">
+          <div class="navbar-start">
+            <a href="/home" class="navbar-item">
+              Home
+            </a>
+          </div>
+          <!-- <div class="navbar-end">
+            <div class="navbar-item"></div>
+          </div> -->
+        </div>
+      </nav>
+    </header>
+    <!-- Main Container -->
+    <main class="container is-fluid is-fullhd mt-6">
+      <!-- Error -->
+      <div class="columns is-mobile is-vcentered is-centered">
+        <article id="error-container" class="message is-danger">
+          <div class="message-header">
+            <p id="error">Hello World</p>
+            <button id="remove-error" class="delete" aria-label="delete"></button>
+          </div>
+        </article>
+      </div>
+      <div class="columns is-mobile is-vcentered is-centered">
+        <div class="column is-full has-text-centered">
+          <h1 class="title is-1">Welcome!</h1>
+        </div>
+      </div>
+      <div class="columns is-mobile is-vcentered is-centered">
+        <div class="column is-full-mobile is-3">
+          <input  id="first-number" class="input" type="number" />
+        </div>
+        <div class="column is-full-mobile is-3">
+          <input id="second-number" class="input" type="number" />
+        </div>
+        <div class="column is-full-mobile is-3">
+          <button id="add-values" class="button is-link">Add values</button>
+        </div>
+      </div>
+      <div class="columns is-mobile is-vcentered is-centered">
+        <div class="column is-full-mobile is-4-tablet">
+          <div class="tile is-ancestor">
+            <div class="tile is-parent is-12">
+              <article class="title is-child box">
+                <p class="title">
+                  The result is <span id="result"></span>
+                </p>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="columns is-mobile is-vcentered is-centered">
+        <div class="column is-full is-flex is-flex-direction-row is-justify-content-center">
+          <img src="./assets/images/Goku_Ultra_Instinct.jpg" decoding="async" loading="lazy" alt="Goku Ultra Instinct" />
+        </div>
+      </div>
+    </main>
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="content has-text-centered">
+        <p>
+          <strong>Webpack Demo </strong> by
+          <a href="https://github.com/pashamakhilkumarreddy">Pasham Akhil Kumar Reddy</a>
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
